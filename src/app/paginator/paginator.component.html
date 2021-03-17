@@ -1,0 +1,40 @@
+<nav class="nav">
+    <ul class="nav__list">
+  
+      <li class="nav__item greyhover" [ngClass]="{disabled: currentPage === 0}"> 
+        <a class="nav__link simplehover" (click)="currentPage = currentPage - 1">
+          Prev
+        </a>
+      </li>
+  
+      <ng-container *ngFor="let img of images; let i = index" >
+        <li 
+          *ngIf="checkWindowIndex(i)"
+          [ngClass]="{active: i === currentPage, greyhover: i !== currentPage}" 
+          class="nav__item"
+          >
+          <a class="nav__link" (click)="currentPage = i">{{ i + 1 }}</a>
+        </li>
+      </ng-container>
+  
+      <li class="nav__item greyhover" [ngClass]="{disabled: currentPage === images.length - 1}"> 
+        <a class="nav__link simplehover" (click)="currentPage = currentPage + 1">
+          Next
+        </a>
+      </li>
+  
+    </ul>
+  
+    <div class="img">
+      <h2 class="img__title">
+        {{ images[currentPage].title }}
+      </h2>
+  
+      <img class="img_content" [src]="images[currentPage].url" alt="">
+    </div>
+  
+  </nav>
+  
+  
+  
+  
