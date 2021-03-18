@@ -1,0 +1,34 @@
+.header {
+    margin: 100px 0;
+
+    &__title {
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.components {
+    margin: 20px auto;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 90%;
+
+    
+
+    &__component {
+        padding: 30px;
+        border: 2px solid pink;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    &__demo {
+
+    }
+
+    &__code {
+
+    }
+}

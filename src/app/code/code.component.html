@@ -1,0 +1,25 @@
+<div class="code">
+
+  <div class="code__nav">
+      <button class="code__btn" (click)="isActive = 'html'">HTML</button>
+      <button class="code__btn" (click)="isActive = 'ts'">TS</button>
+      <button class="code__btn" (click)="isActive = 'scss'">SCSS</button>
+  </div>
+
+  <div class="code__items">
+    <div class="code__onglet code__html" *ngIf="isActive === 'html'">
+        <p>{{ code.html }}</p>
+    </div>
+
+    <div class="code__onglet code__ts" *ngIf="isActive === 'ts'" >
+        <p>{{ code.ts }}</p>
+    </div>
+
+    <div class="code__onglet code__scss" *ngIf="isActive === 'scss'">
+        <p>{{ code.scss }}</p>
+    </div>
+  </div>
+
+
+
+</div>
