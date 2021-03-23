@@ -18,51 +18,51 @@ export class PaginatorComponent {
   images = [
     {
       title: 'Some photo',
-      url: 'https://picsum.photos/id/1003/400',
+      url: 'https://picsum.photos/id/1003/300',
     },
     {
       title: 'Another one',
-      url: 'https://picsum.photos/id/1002/400',
+      url: 'https://picsum.photos/id/1002/300',
     },
     {
       title: 'Beautiful',
-      url: 'https://picsum.photos/id/10/400',
+      url: 'https://picsum.photos/id/10/300',
     },
     {
       title: 'I like that',
-      url: 'https://picsum.photos/id/1000/400',
+      url: 'https://picsum.photos/id/1000/300',
     },
     {
       title: 'Some photo',
-      url: 'https://picsum.photos/id/1003/400',
+      url: 'https://picsum.photos/id/1003/300',
     },
     {
       title: 'Another one',
-      url: 'https://picsum.photos/id/1002/400',
+      url: 'https://picsum.photos/id/1002/300',
     },
     {
       title: 'Beautiful',
-      url: 'https://picsum.photos/id/10/400',
+      url: 'https://picsum.photos/id/10/300',
     },
     {
       title: 'I like that',
-      url: 'https://picsum.photos/id/1000/400',
+      url: 'https://picsum.photos/id/1000/300',
     },
     {
       title: 'Some photo',
-      url: 'https://picsum.photos/id/1003/400',
+      url: 'https://picsum.photos/id/1003/300',
     },
     {
       title: 'Another one',
-      url: 'https://picsum.photos/id/1002/400',
+      url: 'https://picsum.photos/id/1002/300',
     },
     {
       title: 'Beautiful',
-      url: 'https://picsum.photos/id/10/400',
+      url: 'https://picsum.photos/id/10/300',
     },
     {
       title: 'I like that',
-      url: 'https://picsum.photos/id/1000/400',
+      url: 'https://picsum.photos/id/1000/300',
     },
   ];
 

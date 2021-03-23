@@ -6,11 +6,12 @@
 
 .list {
     width: 80%;
-    margin-top: 6em;
+    margin-top: 2em;
 
     &__item {
+        color: white;
+        margin: 2px;
         list-style: none;
-        background-color: lightgrey;
         padding: 20px;
         font-size: 1em;
     }
