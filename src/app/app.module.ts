@@ -4,16 +4,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PaginatorComponent } from './paginator/paginator.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { DragNDropComponent } from './drag-ndrop/drag-ndrop.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    DragNDropComponent
   ],
   imports: [
+    DragDropModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

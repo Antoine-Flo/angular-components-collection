@@ -18,14 +18,13 @@
 }
 
 .components {
-
-    border: 2px solid lightgrey;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
     &__component {
         padding: 30px;
-        border: 2px solid pink;
+        border: 1px solid lightgrey;
     }
 
     &__title {

@@ -1,0 +1,5 @@
+<div class="wrap">
+    <div cdkDropList (cdkDropListDropped)="dropped($event)" class="list">
+        <div [ngStyle]="{backgroundColor: item.color}" cdkDrag *ngFor="let item of list" class="list__item">{{ item.num }}</div>
+    </div>
+</div>

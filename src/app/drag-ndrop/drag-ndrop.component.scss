@@ -1,0 +1,26 @@
+.wrap {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.list {
+    width: 80%;
+    margin-top: 6em;
+
+    &__item {
+        list-style: none;
+        background-color: lightgrey;
+        padding: 20px;
+        font-size: 1em;
+    }
+}
+
+.cdk-drag-preview {
+    height: 20px !important;
+    opacity: .8;
+}
+
+.cdk-drag-placeholder {
+    opacity: .1;
+}
