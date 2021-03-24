@@ -1,4 +1,5 @@
 .wrap {
+    margin-top: 2em;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -6,19 +7,19 @@
 
 .list {
     width: 80%;
-    margin-top: 2em;
+}
+.cdk-drag {
+    color: white;
+    font-weight: 500;
 
-    &__item {
-        color: white;
-        margin: 2px;
-        list-style: none;
-        padding: 20px;
-        font-size: 1em;
-    }
+    list-style: none;
+    padding: 18px;
+    font-size: 1.2em;
 }
 
 .cdk-drag-preview {
     height: 20px !important;
+    margin: 0 !important;
     opacity: .8;
 }
 
