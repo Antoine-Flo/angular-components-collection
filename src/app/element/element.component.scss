@@ -1,0 +1,27 @@
+.element {
+  height: 90%;
+  margin-top: 5rem;
+  transition: all 0.2s;
+  padding: 30px;
+  border-radius: 5px;
+  // border: 1px solid lightgrey;
+  box-shadow: 0 1.7px 10.1px rgba(0, 0, 0, 0.008),
+    0 4px 24.2px rgba(0, 0, 0, 0.012), 0 7.5px 45.6px rgba(0, 0, 0, 0.015),
+    0 13.4px 81.3px rgba(0, 0, 0, 0.018), 0 25.1px 152.1px rgba(0, 0, 0, 0.022),
+    0 60px 364px rgba(0, 0, 0, 0.03);
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__ligne {
+      margin: 0 auto;
+      width: 50%;
+      opacity: .5;
+  }
+}

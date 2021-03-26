@@ -7,13 +7,15 @@ import { PaginatorComponent } from './paginator/paginator.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { DragNDropComponent } from './drag-ndrop/drag-ndrop.component';
+import { ElementComponent } from './element/element.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PaginatorComponent,
-    DragNDropComponent
+    DragNDropComponent,
+    ElementComponent
   ],
   imports: [
     DragDropModule,
