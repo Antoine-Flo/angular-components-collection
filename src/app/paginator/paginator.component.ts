@@ -34,35 +34,23 @@ export class PaginatorComponent {
     },
     {
       title: 'Some photo',
-      url: 'https://picsum.photos/id/1003/300',
+      url: 'https://picsum.photos/id/1004/300',
     },
     {
       title: 'Another one',
-      url: 'https://picsum.photos/id/1002/300',
+      url: 'https://picsum.photos/id/1005/300',
     },
     {
       title: 'Beautiful',
-      url: 'https://picsum.photos/id/10/300',
+      url: 'https://picsum.photos/id/11/300',
     },
     {
       title: 'I like that',
-      url: 'https://picsum.photos/id/1000/300',
+      url: 'https://picsum.photos/id/1006/300',
     },
     {
       title: 'Some photo',
-      url: 'https://picsum.photos/id/1003/300',
-    },
-    {
-      title: 'Another one',
-      url: 'https://picsum.photos/id/1002/300',
-    },
-    {
-      title: 'Beautiful',
-      url: 'https://picsum.photos/id/10/300',
-    },
-    {
-      title: 'I like that',
-      url: 'https://picsum.photos/id/1000/300',
+      url: 'https://picsum.photos/id/13/300',
     },
   ];
 

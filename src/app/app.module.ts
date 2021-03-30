@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { DragNDropComponent } from './drag-ndrop/drag-ndrop.component';
 import { ElementComponent } from './element/element.component';
+import { RangeColorComponent } from './range-color/range-color.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ElementComponent } from './element/element.component';
     AppComponent,
     PaginatorComponent,
     DragNDropComponent,
-    ElementComponent
+    ElementComponent,
+    RangeColorComponent
   ],
   imports: [
     DragDropModule,
